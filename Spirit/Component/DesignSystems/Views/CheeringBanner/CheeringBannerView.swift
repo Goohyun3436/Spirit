@@ -7,14 +7,11 @@
 
 import SwiftUI
 
-struct CheeringBanner: View {
+struct CheeringBannerView: View {
     var body: some View {
         HStack {
             Text("이제 곧 남색 클라이머! 아자아자!")
-                .font(
-                    Font.custom("Pretendard", size: 18)
-                        .weight(.semibold)
-                )
+                .font(.system(size: 18, weight: .semibold))
                 .multilineTextAlignment(.center)
                 .foregroundColor(.white)
         }
@@ -25,8 +22,8 @@ struct CheeringBanner: View {
         
 }
 
-struct CheeringBanner_Previews: PreviewProvider {
+struct CheeringBannerView_Previews: PreviewProvider {
     static var previews: some View {
-        CheeringBanner()
+        CheeringBannerView()
     }
 }

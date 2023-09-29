@@ -2,9 +2,12 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack(spacing: 0) {
-            CheeringBanner()
-            ClimbingWallView()
+        ScrollView(showsIndicators: false) {
+            VStack(spacing: 0) {
+                CheeringBannerView()
+                ClimbingWallView()
+                RecordCardView()
+            }
         }
     }
 }
