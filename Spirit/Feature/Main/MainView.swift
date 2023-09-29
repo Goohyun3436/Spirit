@@ -6,7 +6,15 @@ struct MainView: View {
             VStack(spacing: 0) {
                 CheeringBannerView()
                 ClimbingWallView()
+                
+                Spacer()
+                    .frame(height: 10)
+                CategoryBarView(title: .constant("최근 실적"))
                 RecordCardView()
+                
+                Spacer()
+                    .frame(height: 80)
+                CategoryBarView(title: .constant("명예의 전당"))
             }
         }
     }

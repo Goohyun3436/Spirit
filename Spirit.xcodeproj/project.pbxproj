@@ -17,6 +17,7 @@
 		2DC79E482AC6B36D002E1EA8 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC79E472AC6B36D002E1EA8 /* FooterView.swift */; };
 		2DC79E4C2AC6ECFB002E1EA8 /* ClimbingWallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC79E4B2AC6ECFB002E1EA8 /* ClimbingWallView.swift */; };
 		2DC79E4F2AC70854002E1EA8 /* RecordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC79E4E2AC70854002E1EA8 /* RecordCardView.swift */; };
+		2DC79E522AC72079002E1EA8 /* CategoryBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC79E512AC72079002E1EA8 /* CategoryBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2DC79E472AC6B36D002E1EA8 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		2DC79E4B2AC6ECFB002E1EA8 /* ClimbingWallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingWallView.swift; sourceTree = "<group>"; };
 		2DC79E4E2AC70854002E1EA8 /* RecordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCardView.swift; sourceTree = "<group>"; };
+		2DC79E512AC72079002E1EA8 /* CategoryBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		2DC79E302AC54E28002E1EA8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2DC79E502AC7202A002E1EA8 /* CategoryBar */,
 				2DC79E4D2AC707C8002E1EA8 /* RecordCard */,
 				2DC79E4A2AC6DE95002E1EA8 /* ClimbingWall */,
 				2DC79E442AC6AB9A002E1EA8 /* Footer */,
@@ -189,6 +192,14 @@
 			path = RecordCard;
 			sourceTree = "<group>";
 		};
+		2DC79E502AC7202A002E1EA8 /* CategoryBar */ = {
+			isa = PBXGroup;
+			children = (
+				2DC79E512AC72079002E1EA8 /* CategoryBarView.swift */,
+			);
+			path = CategoryBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +275,7 @@
 				2DC79E412AC571F8002E1EA8 /* CheeringBannerView.swift in Sources */,
 				2DC79E4F2AC70854002E1EA8 /* RecordCardView.swift in Sources */,
 				2DC79E482AC6B36D002E1EA8 /* FooterView.swift in Sources */,
+				2DC79E522AC72079002E1EA8 /* CategoryBarView.swift in Sources */,
 				2DC79E432AC57617002E1EA8 /* MainView.swift in Sources */,
 				2DC79E4C2AC6ECFB002E1EA8 /* ClimbingWallView.swift in Sources */,
 				2DC79E212AC54B93002E1EA8 /* SpiritApp.swift in Sources */,
