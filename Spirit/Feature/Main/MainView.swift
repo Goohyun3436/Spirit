@@ -14,7 +14,13 @@ struct MainView: View {
                 
                 Spacer()
                     .frame(height: 80)
+                CategoryBarView(title: .constant("피카츄라이 모임 일정"))
+                ScheduleCardView()
+                
+                Spacer()
+                    .frame(height: 80)
                 CategoryBarView(title: .constant("명예의 전당"))
+                
             }
         }
     }

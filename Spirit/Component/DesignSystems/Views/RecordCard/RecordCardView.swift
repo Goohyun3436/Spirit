@@ -4,7 +4,6 @@ struct RecordCardView: View {
     var body: some View {
         VStack {
             VStack(alignment: .leading) {
-                GeometryReader { geometry in
                     VStack(alignment: .leading, spacing: 15) {
                         HStack(alignment: .center) {
                             Text("피커스 클라이밍 신촌")
@@ -153,9 +152,9 @@ struct RecordCardView: View {
                                 }
                             }
                         }
-                    }
                 }
             }
+            .frame(maxWidth: .infinity, maxHeight: 150)
             .padding()
             .background(.white)
             .cornerRadius(10)
@@ -165,8 +164,8 @@ struct RecordCardView: View {
                     .stroke(Color(red: 0.93, green: 0.93, blue: 0.93), lineWidth: 1)
             )
         }
+        .frame(maxWidth: .infinity, maxHeight: 150)
         .padding(.horizontal, 20)
-        .frame(width: .infinity, height: 150)
     }
 }
 
