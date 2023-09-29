@@ -15,6 +15,7 @@
 		2DC79E412AC571F8002E1EA8 /* CheeringBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC79E402AC571F8002E1EA8 /* CheeringBannerView.swift */; };
 		2DC79E432AC57617002E1EA8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC79E422AC57617002E1EA8 /* MainView.swift */; };
 		2DC79E482AC6B36D002E1EA8 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC79E472AC6B36D002E1EA8 /* FooterView.swift */; };
+		2DC79E4C2AC6ECFB002E1EA8 /* ClimbingWallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC79E4B2AC6ECFB002E1EA8 /* ClimbingWallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2DC79E402AC571F8002E1EA8 /* CheeringBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeringBannerView.swift; sourceTree = "<group>"; };
 		2DC79E422AC57617002E1EA8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2DC79E472AC6B36D002E1EA8 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		2DC79E4B2AC6ECFB002E1EA8 /* ClimbingWallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingWallView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		2DC79E302AC54E28002E1EA8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2DC79E4A2AC6DE95002E1EA8 /* ClimbingWall */,
 				2DC79E442AC6AB9A002E1EA8 /* Footer */,
 				2DC79E3F2AC57166002E1EA8 /* CheeringBanner */,
 				2DC79E392AC56085002E1EA8 /* Header */,
@@ -167,6 +170,14 @@
 			path = Footer;
 			sourceTree = "<group>";
 		};
+		2DC79E4A2AC6DE95002E1EA8 /* ClimbingWall */ = {
+			isa = PBXGroup;
+			children = (
+				2DC79E4B2AC6ECFB002E1EA8 /* ClimbingWallView.swift */,
+			);
+			path = ClimbingWall;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,6 +253,7 @@
 				2DC79E412AC571F8002E1EA8 /* CheeringBannerView.swift in Sources */,
 				2DC79E482AC6B36D002E1EA8 /* FooterView.swift in Sources */,
 				2DC79E432AC57617002E1EA8 /* MainView.swift in Sources */,
+				2DC79E4C2AC6ECFB002E1EA8 /* ClimbingWallView.swift in Sources */,
 				2DC79E212AC54B93002E1EA8 /* SpiritApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
